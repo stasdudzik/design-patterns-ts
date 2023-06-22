@@ -8,4 +8,4 @@ Each branch will be named after relevant book chapter number. To see chapter cod
 
 **Ch_01** : covers introduction to why use design patterns. In the end we learn about one of most popular behavioral patterns: Strategy. Read more online [here](https://refactoring.guru/design-patterns/strategy)
 
-**Ch_01** : covers one of behavioral patterns - Observer[here](https://refactoring.guru/design-patterns/observer)
+**Ch_01** : covers one of behavioral patterns - Observer [here](https://refactoring.guru/design-patterns/observer)
