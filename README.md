@@ -7,3 +7,5 @@ Contents:
 Each branch will be named after relevant book chapter number. To see chapter code just checkout to specific branch.
 
 **Ch_01** : covers introduction to why use design patterns. In the end we learn about one of most popular behavioral patterns: Strategy. Read more online [here](https://refactoring.guru/design-patterns/strategy)
+
+**Ch_02** : covers one of behavioral patterns - Observer using example of Meteo API and devices displaying data in a different manner
