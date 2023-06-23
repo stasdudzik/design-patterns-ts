@@ -15,7 +15,7 @@ export interface Observer {
 export class WeatherDisplay implements Observer {
   public update(subject: Subject): void {
     if (subject instanceof MeteoSensorsAPI) {
-      console.log("WeatherDisplay: Reacted to the weather data changes.");
+      console.log(`Weather Display: ${JSON.stringify(subject.state)}`);
     }
   }
 }
@@ -23,7 +23,9 @@ export class WeatherDisplay implements Observer {
 export class Termometer implements Observer {
   public update(subject: Subject): void {
     if (subject instanceof MeteoSensorsAPI) {
-      console.log("Termometer: Reacted to the weather data changes.");
+      console.log(
+        `Termometer: Temperature now is ${subject.state.temperature}`
+      );
     }
   }
 }

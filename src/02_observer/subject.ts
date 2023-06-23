@@ -82,9 +82,9 @@ export class MeteoSensorsAPI implements Subject {
   public getWeatherData(): void {
     console.log("\nSubject: I'm getting fresh weather data from sensors.");
     this.state = {
-      temperature: Math.floor(Math.random() * (10 + 1)),
-      pressure: Math.floor(Math.random() * (10 + 1)),
-      humidity: Math.floor(Math.random() * (10 + 1)),
+      temperature: Math.floor(Math.random() * 40),
+      pressure: Math.floor(Math.random() * 1000),
+      humidity: Math.floor(Math.random() * 200),
     };
 
     console.log(
